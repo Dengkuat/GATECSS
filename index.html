@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,12 @@
     <script nomodule src="https://unpkg.com/ionicons@6.0.4/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
     <!-- top links! -->
     <header>
-        <div class="bg-[#eff8fe] p-4 flex flex-col items-center space-y-4 lg:flex lg:flex-row lg:justify-between lg:p-2 lg:items-center">
+        <div
+            class="bg-[#eff8fe] p-4 flex flex-col items-center space-y-4 lg:flex lg:flex-row lg:justify-between lg:p-2 lg:items-center">
             <!-- media icons left -->
             <div class="flex justify-center space-x-6 lg:ml-16">
                 <div class="flex items-center space-x-3  cursor-pointer">
@@ -35,20 +38,141 @@
                     <i class="fa-brands fa-square-instagram" style="color: #242e8f;"></i>
                     <span class="font-thin">|</span>
                 </div>
-                
-               
+
+
             </div>
             <!-- right side -->
-             <div class="flex space-x-4 lg:mr-14">
+            <div class="flex space-x-4 lg:mr-14">
                 <div class="text-[15px]">
                     Online Services
                 </div>
                 <div class="text-[15px]">
                     Publications
                 </div>
-             </div>
+            </div>
 
         </div>
     </header>
+
+    <!-- header section  -->
+    <header class="p-6">
+        <div class="lg:flex lg:items-center lg:justify-center lg:space-x-96">
+            <!-- Image/ logo -->
+            <div class="flex items-center justify-around">
+                <div>
+                    <img src="Images/LOGO.png" alt="RSSB LOGO" class="w-36 object-contain">
+                </div>
+                <!-- contact infomation -->
+                <!-- mobile viewport -->
+                <div class="block lg:hidden">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </div>
+            </div>
+            <!-- desktop viewport -->
+            <div class="hidden lg:block">
+                <div class="flex items-center space-x-7 p-5 ml-24">
+                    <!-- phone  -->
+                    <div class="flex items-center space-x-3 border-r pr-7">
+                        <img src="Images/phone.png" alt="phone" class="w-14 object-contain ">
+                        <div class="flex flex-col space-y-1">
+                            <p class="font-bold text-[#242e8f]">Phone 4044</p>
+                            <p class="text-[14px]">Toll Free lines</p>
+                        </div>
+                    </div>
+
+                    <!-- email -->
+                    <div class="flex items-center space-x-3">
+                        <img src="Images/email.png" alt="email" class="w-14 object-contain">
+                        <div class="flex flex-col space-y-1">
+                            <p class="font-bold text-[#242e8f]">info@rssb.rw</p>
+                            <p class="text-[14px]">reach to us</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div>
+
+        </div>
+        </div>
+    </header>
+
+    <!-- hero section -->
+    <section class="hidden lg:block">
+        <div class="max-w-7xl mx-auto bg-blue-900 rounded-md shadow-md px-8 py-3 -mt-7 relative z-10">
+          <nav class="flex space-x-10 text-white font-medium items-center">
+            <a href="#" class="relative py-6 group">
+              HOME
+            </a>
+            <a href="#" class="relative py-6 group">
+              SCHEMES
+            </a>
+            <a href="#" class="relative py-6 group">
+                INVESTMENT
+              </a>
+              <a href="#" class="relative py-6 group">
+                MANAGEMENT
+              </a>
+              <a href="#" class="relative py-6 group">
+                ABOUT
+              </a>
+              <a href="#" class="relative py-6 group">
+                CAREERS
+              </a>
+              <a href="#" class="relative py-6 group">
+                NEWS & EVENTS
+              </a>
+          </nav>
+        </div>
+      </section>
+
+      <!-- content block -->
+       <section>
+        <div class="relative flex items-center max-w-7xl mx-auto px-8 py-16 mt-16 z-20 bg-white">
+            <!-- Text content on left -->
+             <!-- destop text -->
+            <div class="w-1/2 pr-8 hidden lg:block">
+              <h1 class="text-3xl font-thin mb-4">EJOHERA <span>Save</span> for a better future for you <br> and your family</h1>
+              <p class="text-2xl text-[#242E8F]">EJOHEZA</p>
+              <div class="mt-10">
+                <button class="font-bold bg-[#242E8F] text-white rounded-lg px-8 py-3 border border-transparent hover:bg-white hover:text-[#242E8F] hover:border-[#242E8F] transition-colors duration-300">
+                    Learn More
+                  </button>              
+                </div>
+            </div>
+            <!-- mobile text  -->
+            <div class="block lg:hidden">
+                <h1 class="text-3xl font-thin mb-4">EJOHERA <span>Save</span> for a better future for you <br> and your family</h1>
+              <p class="text-2xl text-[#242E8F]">EJOHEZA</p>
+              <div class="mt-10">
+                <button class="font-bold bg-[#242E8F] text-white rounded-lg px-8 py-3 border border-transparent hover:bg-white hover:text-[#242E8F] hover:border-[#242E8F] transition-colors duration-300">
+                    Learn More
+                  </button>              
+                </div>
+            </div>
+          
+            <!-- Image on right -->
+            <div class="w-1/2 hidden lg:block">
+              <img
+                src="Images/smiling couple.jpeg"
+                alt="Smiling couple"
+                class="w-full object-cover"
+                style="mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0)); -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));"
+              />
+            </div>
+          </div>
+       </section>
+
+       <!-- info page -->
+        <section>
+            <div>
+                <div>
+                    img
+                </div>
+            </div>
+        </section>
 </body>
+
 </html>
